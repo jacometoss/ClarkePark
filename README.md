@@ -1,7 +1,3 @@
-
-
-
-
 # Transformación de Park & Clarke
 
 El módulo de Park (dq0) & Clarke (α, *β* ) incluye :
