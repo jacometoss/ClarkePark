@@ -85,7 +85,7 @@ La transformación inversa de Park, ejes de referencia rotatorio dq0 a component
 a, b, c = ClarkePark.dq0_to_abc(d, q, z, wt, delta)
 ```
 
-## Transformación inversa (α, *β*) - (dq0)
+## Transformación marco de referencia (α, *β*) a (dq0)
 
 La transformación inversa de Park, ejes de referencia rotatorio dq0 a componentes  del dominio del tiempo, marco A, B, C.
 
