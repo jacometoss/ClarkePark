@@ -24,16 +24,13 @@ pip install ClarkePark
 
 ## Transformación (a,b,c) - (α, *β*)
 
-El módulo tiene dependencias siendo necesario instalar `numpy` para procesar la información. También será necesario importar `matplotlib.pyplot` para visualizar los resultados.
+El módulo tiene dependencias siendo necesario instalar `numpy` para procesar la información. También será necesario instalar e importar `matplotlib.pyplot` para visualizar los resultados.
 
 ```tex
 alpha, beta, z = ClarkePark.abc_to_alphaBeta0(A,B,C)
 ```
 
-Para poder usar la transformación es necesario generar las tres señales monofásicas en desfase y balanceadas siendo necesario de 
-
-- *Numpy* : Para el manejo de los datos.
-- *Matplotlib* : Obtener las gráficas correspondientes.
+Las últimas versiones de `numpy` y `matplotlib.pyplot`  pueden ser utilizadas.
 
 ```python
 import ClarkePark
