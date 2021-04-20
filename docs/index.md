@@ -30,7 +30,7 @@ El módulo tiene dependencias siendo necesario instalar `numpy` para procesar la
 alpha, beta, z = ClarkePark.abc_to_alphaBeta0(A,B,C)
 ```
 
-Las últimas versiones de `numpy` y `matplotlib.pyplot`  pueden ser utilizadas.
+Las últimas versiones de `numpy` y `matplotlib.pyplot`  pueden ser utilizadas, el propio paquete las instalará.
 
 ```python
 import ClarkePark
