@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='ClarkePark',
-    version='0.1.2',
+    version='0.1.4',
     url='https://jacometoss.github.io/ClarkePark/',
     license='GPL-3.0',
     author='Marco Polo Jacome Toss',
@@ -13,7 +13,7 @@ setup(
     keywords=['Clarke and Park Transforms', 'Inverse Park transform', 'transforms', 'Clark', 'Park'],
     packages=find_packages(include=["ClarkePark"]),
     include_package_data=True,
-    install_requires=['numpy==1.19.1','matplotlib==3.3.2'],
+    install_requires=['numpy','matplotlib'],
     python_requires='>=3.5',
     classifiers=[
         'License :: OSI Approved :: GNU Affero General Public License v3',
@@ -26,6 +26,10 @@ setup(
         'Programming Language :: Python :: 3.9',
         'Operating System :: Microsoft :: Windows',
         'Operating System :: POSIX :: Linux',
+        'Topic :: Software Development :: Libraries :: Python Modules',
+        'Topic :: Scientific/Engineering :: Physics',
+        'Topic :: Scientific/Engineering :: Mathematics',
+        'Topic :: Utilities ',        
     ],
 )
 
