@@ -11,16 +11,9 @@ nav:
 
   
 
-theme: 
-    name: readthedocs
-    nav_style: light
-    highlightjs: true
-    hljs_languages:
-        - scilab
-        - lisp
-        - php
-        - python
-    include_sidebar: false 
+theme: readthedocs
+
+
 
 markdown_extensions:
     - smarty
