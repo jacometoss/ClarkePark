@@ -1,7 +1,7 @@
 site_name: ClarkePark
 site_description: Transformación de Clarke y Park
 copyright: Creado por Marco Polo Jácome Toss
----repo_url: https://github.com/jacometoss/SELisp/
+repo_url: https://clarkepark.readthedocs.io/
 
 nav:
     - Instalación: index.md
@@ -19,12 +19,13 @@ theme:
         - scilab
         - lisp
         - php
+        - python
     include_sidebar: false 
 
 markdown_extensions:
     - smarty
     
-version: 0.2.44.09
+version: 0.1.4
     
 plugins:
     - search:
