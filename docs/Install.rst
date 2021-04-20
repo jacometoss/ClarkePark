@@ -6,8 +6,8 @@
 
 .. _header-n2:
 
-Transformación de Park & Clarke
-===============================
+Instalación de Park & Clarke
+============================
 
 El módulo de Park (dq0) & Clarke (α, *β* ) incluye :
 
