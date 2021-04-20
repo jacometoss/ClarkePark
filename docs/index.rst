@@ -1,0 +1,62 @@
+
+
+Bienvenido a ClarkePark Electrical Wire Sizes!
+=========================================
+
+| |image1|
+| |image2|
+| |image3|
+| |image4|
+| |image5|
+
+ClarkePark_ - Es un paquete para obtener los marcos de referencia Dq0 y Alfa-Beta.
+
+El módulo ClarkePark ( Versión 0.1.4) puede ser utilizado para obtener los diferentes marcos
+de refrencia, también puede ser utilizado realizar una transformación entre los propios marcos 
+de referencia como al sistema ABC.
+
+El módulo de Park (dq0) & Clarke (α, *β* ) incluye :
+
+-  Transformación de componentes del tiempo, marco A, B, C a ejes nuevos
+   ejes de referencia estacionario ortogonal α, *β*.
+
+-  Inversa de Clarke, ejes de referencia estacionario ortogonal α, *β* a
+   componentes del dominio del tiempo, marco A, B , C.
+
+-  Transformación de componentes del tiempo, marco ABC hacia un sistema
+   de referencia dq0 en régimen permanente.
+
+-  Inversa de Park, ejes de referencia rotatorio dq0 a componentes del
+   dominio del tiempo, marco A, B, C.
+
+-  Transformación de referencia estacionario ortogonal α, *β* hacia un
+   marco de referencia rotatorio dq0.
+
+
+
+Contenido:
+==========
+
+.. toctree::
+    :maxdepth: 4
+
+    Install
+    ClarkePark
+	References
+	Version
+	
+	
+
+.. _ClarkePark: https://pypi.org/project/ClarkePark/
+.. |image1| image:: https://badge.fury.io/py/ClarkePark.svg
+   :target: https://badge.fury.io/py/ClarkePark
+.. |image2| image:: https://img.shields.io/badge/python-3 | 3.5 | 3.6 | 3.7 | 3.8 | 3.9-blue
+   :target: https://pypi.org/project/ClarkePark/
+.. |image3| image:: https://pepy.tech/badge/clarkepark
+   :target: https://pepy.tech/project/clarkepark
+.. |image4| image:: https://pepy.tech/badge/clarkepark/month
+   :target: https://pepy.tech/project/clarkepark
+.. |image5| image:: https://api.codeclimate.com/v1/badges/6abceb2a140780c13d17/maintainability
+   :target: https://codeclimate.com/github/jacometoss/ClarkePark/maintainability
+
+
