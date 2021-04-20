@@ -185,19 +185,3 @@ La transformación inversa de Park, ejes de referencia rotatorio dq0 a component
 d, q, z= ClarkePark.alphaBeta0_to_dq0(alpha, beta, zero, wt, delta)
 ```
 
-## Referencias
-
-[1] Kundur, P. (1994). *Power System Stability and Control.* McGraw-Hill Education.
-
-[2]  J.C.DAS. (2016). *Understanding Symmetrical Components for Power System Modeling.* Piscataway: IEEE Press Editorial Board.
-
-## Autor
-
-```
-[Packqge]: ClarkePark 0.1.4
-[Autor]: Marco Polo Jácome Toss
-[Licencia]: GNU General Public License v3.0
-```
-
-
-
