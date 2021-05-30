@@ -1,6 +1,6 @@
 
 
-Bienvenido a ClarkePark Electrical Wire Sizes!
+Bienvenido a ClarkePark!
 =========================================
 
 | |image1|
