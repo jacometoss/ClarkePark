@@ -208,6 +208,57 @@ componentes del dominio del tiempo, marco A, B, C.
 
    a, b, c = ClarkePark.dq0_to_abc(d, q, z, wt, delta)
 
+De un marco de referencia constante (dq0) puede ser cambiado al sistema
+(ABC) de variables senoidales en el tiempo.
+
+Implementaremos un sistema balanceado y aplicaremos el marco de
+referencia constante (dq0) con las líneas siguientes :
+
+.. code:: python
+
+   import ClarkePark
+   import numpy as np
+   import matplotlib.pyplot as plt
+
+   end_time = 3/float(60)
+   step_size = end_time/(1000)
+   delta=0
+   t = np.arange(0,end_time,step_size)
+   wt = 2*np.pi*float(60)*t
+
+   rad_angA = float(0)*np.pi/180
+   rad_angB = float(240)*np.pi/180
+   rad_angC = float(120)*np.pi/180
+
+   A = (np.sqrt(2)*float(127))*np.sin(wt+rad_angA)
+   B = (np.sqrt(2)*float(127))*np.sin(wt+rad_angB)
+   C = (np.sqrt(2)*float(127))*np.sin(wt+rad_angC)
+
+   d, q, z = ClarkePark.abc_to_dq0(A, B, C, wt, delta)
+   a, b, c = ClarkePark.dq0_to_abc(d, q, z, wt, delta)
+
+Los resultados obtenidos en líneas anteriores son graficadas mediante
+
+.. code:: python
+
+   plt.figure(figsize=(8,3))
+   plt.plot(t, a, label="A", color="royalblue")
+   plt.plot(t, b, label="B", color="orangered")
+   plt.plot(t, c, label="C" , color="forestgreen")
+   plt.legend(['A','B','C'])
+   plt.legend(ncol=3,loc=4)
+   plt.ylabel("Tensión [Volts]")
+   plt.xlabel("Tiempo [Segundos]")
+   plt.title(" Sistema trifásico ABC")
+   plt.grid('on')
+   plt.show()
+
+Finalmente se obtiene las señales del sistema trifásico ABC mediante la
+transformación inversa dq0 al sistema ABC.
+
+.. figure:: https://i.ibb.co/gtWbCj7/Figure-2.png
+   :alt: 
+
 .. _header-n55:
 
 Transformación inversa (α, *β*) - (dq0)
