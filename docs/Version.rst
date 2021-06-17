@@ -11,7 +11,7 @@ Acerca de la versión
 
 .. code:: 
 
-   [Packqge]: ClarkePark 0.1.4
+   [Packqge]: ClarkePark 0.1.5
    [Autor]: Marco Polo Jácome Toss
    [Licencia]: GNU General Public License v3.0
 
