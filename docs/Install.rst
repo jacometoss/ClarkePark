@@ -9,7 +9,7 @@
 Instalación de Park & Clarke
 ============================
 
-El módulo de Park (dq0) & Clarke (α, *β* ) incluye :
+La librería Park (dq0) & Clarke (α, *β* ) incluye los módulos siguientes :
 
 -  Transformación de componentes del tiempo, marco A, B, C a ejes nuevos
    ejes de referencia estacionario ortogonal α, *β*.
