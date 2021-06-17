@@ -139,13 +139,13 @@ d, q, z = ClarkePark.alphaBeta0_to_dq0(alpha, beta, zero, wt, delta)
 
 Si el marco de referencia estacionario ortogonal   α, *β* es posible  obtener el marco de referencia rotatorio dq0. Usando el mismo bloque de código de la transformación inversa y añadiendo la línea siguiente de código.
 
-```
+```python
 alpha, beta, z = ClarkePark.abc_to_alphaBeta0(a,b,c)
 ```
 
 Y cambiando de nuevo al nuevo sistema los resultados serán los mismos a los mostrados en la transformación de marco de referencia rotatorio dq0.
 
-```
+```python
 d, q, z = ClarkePark.alphaBeta0_to_dq0(alpha, beta, z, wt, delta)
 ```
 
