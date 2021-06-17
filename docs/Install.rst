@@ -120,7 +120,7 @@ La señal trifásica desbalanceada únicamente será en la "Fase B"
 implementaremos las líneas siguientes de código al mostrado al
 principio.
 
-.. code:: 
+.. code:: python
 
    A_unbalance = (np.sqrt(2)*float(127))*np.sin(wt+rad_angA)
    B_unbalance = (np.sqrt(2)*float(115))*np.sin(wt+rad_angB)
