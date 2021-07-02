@@ -11,7 +11,7 @@ Bienvenido a ClarkePark!
 
 ClarkePark_ - Es un paquete para obtener los marcos de referencia Dq0 y Alfa-Beta.
 
-El módulo ClarkePark ( Versión 0.1.4) puede ser utilizado para obtener los diferentes marcos
+La librería ClarkePark ( Versión 0.1.4) puede ser utilizado para obtener los diferentes marcos
 de refrencia, también puede ser utilizado realizar una transformación entre los propios marcos 
 de referencia como al sistema ABC.
 
@@ -39,7 +39,7 @@ La vida es como una batería y en cada momento uno va perdiendo una pequeña par
 puedes apoyarme en el desarrollo de este proyecto y motivar aún más mi creatividad para 
 que sea de gran utilidad esta herramienta.
 
-Puedes comprarme de un café  : 
+Puedes comprarme un café  : 
 
 |image7|
 
