@@ -76,3 +76,5 @@ Realizando un acercamiento a la figura 2.
    :alt: 
 
 .. |image1| image:: https://i.ibb.co/vsdkCyC/Corriente-estator-abc.png
+
+Fig. 3.- Acercamiento Fig. 2 .
