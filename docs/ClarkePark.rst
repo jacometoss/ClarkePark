@@ -84,12 +84,12 @@ Sistema trifásico balanceado
 Transformación (α, *β*) 
 -----------------------
 
-La transformación del marco ABC al sistema de referencia dq0,
+La transformación del marco ABC al sistema de referencia α, *β*,
 implementando la misma señal se obtiene con
 
 .. code:: python
 
-   d, q, z = ClarkePark.abc_to_dq0(A, B, C, wt, delta)
+  alpha, beta, z = ClarkePark.abc_to_alphaBeta0(A,B,C)
 
 Un sistema rotatorio puede ser analizado con la transformación de Park
 generándose dos señales de valor constante en régimen permanente.
