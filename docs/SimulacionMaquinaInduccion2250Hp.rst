@@ -11,11 +11,12 @@ mediante el bloque de código siguiente :
 
 .. code:: python
 
-   import pandas as pd
-   db = pd.read_csv('simulacionMI2250HP.csv')
-   t=db.t
-   ias=db.ias
-   ibs=db.ibs
+   import pandas as pd
+
+   db = pd.read_csv('simulacionMI2250HP.csv')
+   t=db.t
+   ias=db.ias
+   ibs=db.ibs
    ics=db.ics
 
 La corriente en estator cuando arranca la Maquina de Inducción de 2250
@@ -51,31 +52,30 @@ obtiene mediante el código siguiente :
 
 .. code:: python
 
-   import ClarkePark
-   import numpy as np
-   import matplotlib.pyplot as plt
-   import pandas as pd
-   
-   
-   
-   db = pd.read_csv('simulacionMI2250HP.csv')
-   t=db.t
-   ias=db.ias
-   ibs=db.ibs
-   ics=db.ics
-   
-   alpha, beta, z = ClarkePark.abc_to_alphaBeta0(ias,ibs,ics)
-   
-   plt.figure(figsize=(8,3))
-   plt.plot(t, alpha, label="\u03B1", color="darkred")
-   plt.plot(t, beta, label="\u03B2", color="darkblue")
-   plt.plot(t, z, label="zero" , color="dimgray")
-   plt.legend(['\u03B1','\u03B2','0'])
-   plt.legend(ncol=3,loc=4)
-   plt.ylabel("Corriente Estátor [Amperios]")
-   plt.xlabel("Tiempo [Segundos]")
-   plt.title(" Transformación Clarke Motor Inducción 2250Hp (\u03B1 \u03B2)")
-   plt.grid('on')
+   import ClarkePark
+   import numpy as np
+   import matplotlib.pyplot as plt
+   import pandas as pd
+
+
+   db = pd.read_csv('simulacionMI2250HP.csv')
+   t=db.t
+   ias=db.ias
+   ibs=db.ibs
+   ics=db.ics
+
+   alpha, beta, z = ClarkePark.abc_to_alphaBeta0(ias,ibs,ics)
+   
+   plt.figure(figsize=(8,3))
+   plt.plot(t, alpha, label="\u03B1", color="darkred")
+   plt.plot(t, beta, label="\u03B2", color="darkblue")
+   plt.plot(t, z, label="zero" , color="dimgray")
+   plt.legend(['\u03B1','\u03B2','0'])
+   plt.legend(ncol=3,loc=4)
+   plt.ylabel("Corriente Estátor [Amperios]")
+   plt.xlabel("Tiempo [Segundos]")
+   plt.title(" Transformación Clarke Motor Inducción 2250Hp (\u03B1 \u03B2)")
+   plt.grid('on')
    plt.show()
 
 De esta manera se obtiene la gráfica
