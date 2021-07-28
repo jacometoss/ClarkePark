@@ -3,11 +3,7 @@
 Bienvenido a ClarkePark!
 =========================================
 
-| |image1|
-| |image2|
-| |image3|
-| |image4|
-| |image5|
+| |image1|\ |image2|\ |image3|\ |image4|\ |image5|
 
 ClarkePark_ - Es un paquete para obtener los marcos de referencia Dq0 y Alfa-Beta.
 
