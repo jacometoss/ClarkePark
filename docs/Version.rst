@@ -48,5 +48,5 @@ No es mucho pero de algo sirve para mejorar este proyecto, acepto críticas como
    :target: https://pepy.tech/project/clarkepark
 .. |image5| image:: https://api.codeclimate.com/v1/badges/6abceb2a140780c13d17/maintainability
    :target: https://codeclimate.com/github/jacometoss/ClarkePark/maintainability
-.. |image7| image:: https://i.ibb.co/80PtL4t/Donativos.jpg
+.. |image7| image:: https://i.ibb.co/Lns1NqZ/Donativos.gif
    :target: https://ko-fi.com/B0B356BR4
