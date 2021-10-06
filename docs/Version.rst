@@ -13,6 +13,19 @@ La versión y nombre del paquete son :
    [Autor]: Marco Polo Jácome Toss
    [Licencia]: GNU General Public License v3.0
 
+
+Puedes aportar un pequeño donativo.
+
+.. code::
+
+          ─▄▀─▄▀
+          ──▀──▀
+          █▀▀▀▀▀█▄
+          █░░░░░█─█
+          ▀▄▄▄▄▄▀▀
+      Url para donativos      
+   https://ko-fi.com/jacometoss 
+
 .. |image1| image:: https://badge.fury.io/py/ClarkePark.svg
    :target: https://badge.fury.io/py/ClarkePark
 .. |image2| image:: https://img.shields.io/badge/python-3 | 3.5 | 3.6 | 3.7 | 3.8 | 3.9-blue
