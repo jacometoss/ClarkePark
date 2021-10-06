@@ -14,7 +14,7 @@ System Modeling.* Piscataway: IEEE Press Editorial Board.
 Donativos 
 ===========
 
-**¿Te gusta este proyecto?, puedes apoyarme mediante**
+**¿Te gusta este proyecto?, puedes apoyarme mediante . . .**
 
 La vida es como una batería y en cada momento uno va perdiendo una pequeña parte de esta cada día,
 puedes apoyarme en el desarrollo de este proyecto y motivar aún más mi creatividad para 
