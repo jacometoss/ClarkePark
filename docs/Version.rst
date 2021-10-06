@@ -1,9 +1,11 @@
-| |image1|\ |image2|\ |image3|\ |image4|\ |image5|
+| |image1| |image2| |image3| |image4| |image5|
 
 .. _header-n2:
 
 Acerca de la versión
 ====================
+
+La versión y nombre del paquete son :
 
 .. code:: 
 
