@@ -13,7 +13,6 @@ La versión y nombre del paquete son :
    [Autor]: Marco Polo Jácome Toss
    [Licencia]: GNU General Public License v3.0
 
-
 Donativos 
 ===========
 
@@ -30,7 +29,6 @@ Puedes comprarme un café en forma de donativo en el enlace siguiente :
 No es mucho pero de algo sirve para mejorar este proyecto, acepto críticas como sugerencias.
 
 .. code::
-
           ─▄▀─▄▀
           ──▀──▀
           █▀▀▀▀▀█▄
