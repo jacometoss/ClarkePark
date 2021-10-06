@@ -27,6 +27,12 @@ Puedes comprarme un café en forma de donativo en el enlace siguiente :
 No es mucho pero de algo sirve para mejorar este proyecto, acepto críticas como sugerencias.
 
 
+**Licencia del documento**
+
+|image8|
+
+
+
 .. |image1| image:: https://badge.fury.io/py/ClarkePark.svg
    :target: https://badge.fury.io/py/ClarkePark
 .. |image2| image:: https://img.shields.io/badge/python-3 | 3.5 | 3.6 | 3.7 | 3.8 | 3.9-blue
@@ -39,3 +45,6 @@ No es mucho pero de algo sirve para mejorar este proyecto, acepto críticas como
    :target: https://codeclimate.com/github/jacometoss/ClarkePark/maintainability
 .. |image7| image:: https://ko-fi.com/img/githubbutton_sm.svg
    :target: https://ko-fi.com/B0B356BR4
+.. |image8| image:: https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png
+   :target: https://k-denveloper.blogspot.com/
+ 
