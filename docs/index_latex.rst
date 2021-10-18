@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 ============================
-Python Electrical Wire Sizes
+Transformación Clarke & Park
 ============================
 
 Repositorio de manuales y recursos del entrenamiento 
