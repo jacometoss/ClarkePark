@@ -47,7 +47,7 @@ source_encoding = 'utf-8-sig'
 master_doc = 'index'
 
 # General information about the project.
-project = 'Electrical Wire Sizes'
+project = 'Transformación Clarke & Park'
 copyright = '2021, Marco Polo Jácome Toss.'
 
 # The version info for the project you're documenting, acts as replacement for
