@@ -12,7 +12,6 @@ Repositorio de manuales y recursos del entrenamiento
 
 
 .. toctree::
-   :numbered:
    :maxdepth: 2
 
    index
