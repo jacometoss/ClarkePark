@@ -5,7 +5,7 @@ Transformación ClarkePark!
 
 | |image1|  |image2| |image3|  |image4| |image5|
 
-ClarkePark_ - Es un paquete para obtener los marcos de referencia Dq0 y Alfa-Beta.
+ClarkePark - Es un paquete para obtener los marcos de referencia Dq0 y Alfa-Beta.
 
 La librería ClarkePark ( Versión 0.1.5) puede ser utilizado para obtener los diferentes marcos
 de refrencia, también puede ser utilizado realizar una transformación entre los propios marcos 
@@ -56,8 +56,6 @@ Contenido:
     
 	
 	
-
-.. _ClarkePark: https://pypi.org/project/ClarkePark/
 .. |image1| image:: https://badge.fury.io/py/ClarkePark.svg
    :target: https://badge.fury.io/py/ClarkePark
 .. |image2| image:: https://img.shields.io/badge/python-3 | 3.5 | 3.6 | 3.7 | 3.8 | 3.9-blue
