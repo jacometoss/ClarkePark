@@ -9,7 +9,7 @@ La versión y nombre del paquete son :
 
 .. code:: 
 
-   [Packqge]: ClarkePark 0.1.5
+   [Packqge]: ClarkePark 0.1.6
    [Autor]: Marco Polo Jácome Toss
    [Licencia]: GNU General Public License v3.0
 
@@ -40,7 +40,7 @@ No es mucho pero de algo sirve para mejorar este proyecto, acepto críticas como
 
 .. |image1| image:: https://badge.fury.io/py/ClarkePark.svg
    :target: https://badge.fury.io/py/ClarkePark
-.. |image2| image:: https://img.shields.io/badge/python-3 | 3.5 | 3.6 | 3.7 | 3.8 | 3.9-blue
+.. |image2| image:: https://img.shields.io/badge/python-3 | 3.5 | 3.6 | 3.7 | 3.8 | 3.9 | 3.10-blue
    :target: https://pypi.org/project/ClarkePark/
 .. |image3| image:: https://pepy.tech/badge/clarkepark
    :target: https://pepy.tech/project/clarkepark
