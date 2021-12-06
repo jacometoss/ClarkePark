@@ -139,14 +139,27 @@ d, q, z = ClarkePark.alphaBeta0_to_dq0(alpha, beta, zero, wt, delta)
 
 Si el marco de referencia estacionario ortogonal   α, *β* es posible  obtener el marco de referencia rotatorio dq0. Usando el mismo bloque de código de la transformación inversa y añadiendo la línea siguiente de código.
 
-```python
+```
 alpha, beta, z = ClarkePark.abc_to_alphaBeta0(a,b,c)
 ```
 
 Y cambiando de nuevo al nuevo sistema los resultados serán los mismos a los mostrados en la transformación de marco de referencia rotatorio dq0.
 
-```python
+```
 d, q, z = ClarkePark.alphaBeta0_to_dq0(alpha, beta, z, wt, delta)
+```
+
+## Desarrollador y versión
+
+La presente versión contiene la documentación necesaria para cada módulo.
+
+```text
+[Packqge]: ClarkePark 0.1.6
+[Autor]: Marco Polo Jácome Toss
+[Blog] : https://k-denveloper.blogspot.com/
+[Licencia]: GNU General Public License v3.0
+[Fecha]: 06-Diciembre-2021
+[Páis]: México
 ```
 
 ## Referencias
@@ -154,14 +167,3 @@ d, q, z = ClarkePark.alphaBeta0_to_dq0(alpha, beta, z, wt, delta)
 [1] Kundur, P. (1994). *Power System Stability and Control.* McGraw-Hill Education.
 
 [2]  J.C.DAS. (2016). *Understanding Symmetrical Components for Power System Modeling.* Piscataway: IEEE Press Editorial Board.
-
-## Autor
-
-```
-[Packqge]: ClarkePark 0.1.4
-[Autor]: Marco Polo Jácome Toss
-[Licencia]: GNU General Public License v3.0
-```
-
-
-

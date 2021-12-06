@@ -2,8 +2,15 @@ from setuptools import setup, find_packages
 
 setup(
     name='ClarkePark',
-    version='0.1.4',
-    url='https://jacometoss.github.io/ClarkePark/',
+    version='0.1.6',
+    url='https://clarkepark.readthedocs.io/',
+    project_urls={
+        'Documentation': 'https://clarkepark.readthedocs.io/',
+        'Source': 'https://github.com/jacometoss/ClarkePark',
+        'Funding': 'https://ko-fi.com/jacometoss',
+        'Forum': 'https://k-denveloper.blogspot.com/',
+        'Bug Tracker': 'https://github.com/jacometoss/ClarkePark/issues',
+    },     
     license='GPL-3.0',
     author='Marco Polo Jacome Toss',
     author_email='jacometoss@outlook.com',
