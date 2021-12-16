@@ -46,6 +46,7 @@ Contenido:
 ==========
 
 .. toctree::
+    :hidden:
     :maxdepth: 2
 
     Install
