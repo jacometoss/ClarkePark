@@ -167,3 +167,6 @@ La presente versión contiene la documentación necesaria para cada módulo.
 [1] Kundur, P. (1994). *Power System Stability and Control.* McGraw-Hill Education.
 
 [2]  J.C.DAS. (2016). *Understanding Symmetrical Components for Power System Modeling.* Piscataway: IEEE Press Editorial Board.
+
+
+<a href="https://info.flagcounter.com/5yNI"><img src="https://s05.flagcounter.com/count2/5yNI/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
