@@ -10,7 +10,7 @@ La versión y nombre del paquete son :
 .. code:: 
 
    [Packqge]: ClarkePark 0.1.6
-   [Autor]: Marco Polo Jácome Toss
+   [Autor]: MSc. Marco Polo Jácome Toss
    [Licencia]: GNU General Public License v3.0
 
 Donativos 
