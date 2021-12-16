@@ -53,7 +53,6 @@ Contenido:
     SimulacionMaquinaInduccion2250Hp
     References
     Version
-    
     genindex
     
 	
