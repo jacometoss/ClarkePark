@@ -2,8 +2,8 @@
 
 .. _header-n2:
 
-Acerca de la versión
-====================
+Contribución y desarrollo
+=========================
 
 La versión y nombre del paquete son :
 
