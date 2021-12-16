@@ -46,8 +46,7 @@ Contenido:
 ==========
 
 .. toctree::
-    :hidden:
-    :maxdepth: 6
+    :maxdepth: 1
 
     Install
     ClarkePark
