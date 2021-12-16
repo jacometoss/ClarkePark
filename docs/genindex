@@ -1,2 +1,10 @@
-Index
-=====
+
+.. toctree::
+    :maxdepth: 4
+
+    Install
+    ClarkePark
+    SimulacionMaquinaInduccion2250Hp
+    References
+    Version
+    genindex
