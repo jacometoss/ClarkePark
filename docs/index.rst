@@ -46,7 +46,7 @@ Contenido:
 ==========
 
 .. toctree::
-    :glob:
+    :hidden:
     :maxdepth: 2
 
     Install
@@ -55,6 +55,7 @@ Contenido:
     References
     Version
 
+    genindex
 
    
 	
