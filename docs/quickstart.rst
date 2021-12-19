@@ -1,11 +1,11 @@
 ClarkePark
 ===========
 
-.. option:: Transformación (a,b,c) -> (α,β)
+.. option:: Transformación (abc) -> (αβ)
 
 .. code:: python
 
-   alpha, beta, z = ClarkePark.abc_to_alphaBeta0(A,B,C)
+   alpha, beta, z = ClarkePark.abc_to_alphaBeta0(ABC)
    
 
 .. option:: Transformación (ABC) -> (dq0)
