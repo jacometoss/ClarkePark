@@ -44,11 +44,11 @@ Las tensiones o corrientes trifásicas en el dominio del tiempo son :
 
 .. math::
    :nowrap:
-  
+   
    \begin{eqnarray}
-
+   \begin{matrix}
       V_{A} = V_{m} \sin \left (\omega t+0  \right )
-
+    \end{matrix}
     \end{eqnarray}
  
 2.-La Fase B en el dominio del tiempo es  :
@@ -57,9 +57,9 @@ Las tensiones o corrientes trifásicas en el dominio del tiempo son :
    :nowrap:
   
    \begin{eqnarray}
-
+   \begin{matrix}
       V_{B} = V_{m} \sin \left (\omega t+240  \right )
-
+    \end{matrix}
     \end{eqnarray}    
  
 3.-La Fase B en el dominio del tiempo es  :
@@ -68,9 +68,9 @@ Las tensiones o corrientes trifásicas en el dominio del tiempo son :
    :nowrap:
   
    \begin{eqnarray}
-
+   \begin{matrix}
       V_{C} = V_{m} \sin \left (\omega t+120  \right )
-
+    \end{matrix}   
     \end{eqnarray}   
 
 Transformación (a,b,c) - (α, *β*)
