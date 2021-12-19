@@ -4,7 +4,7 @@ Módulos ClarkePark
 Descripción
 -----------
 
-:program:`ClarkePark` presenta los módulos siguiente:
+:program:`ClarkePark` presenta los módulos siguientes:
 
 .. option:: Transformación (abc) -> (αβ)
 
