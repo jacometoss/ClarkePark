@@ -42,8 +42,8 @@ Puedes comprarme un café  :
 No es mucho pero de algo sirve para mejorar este proyecto, acepto críticas como sugerencias.
 
 
-Contenido:
-==========
+Sistema abc y marcos de referencia
+==================================
 
 .. toctree::
     :maxdepth: 2
