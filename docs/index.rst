@@ -55,7 +55,7 @@ Contenido:
     References
     Version
 
-
+.. sectionauthor:: Marco Polo Jácome Toss <jacometoss@aol.com>
 	
 	
 .. |image1| image:: https://badge.fury.io/py/ClarkePark.svg
