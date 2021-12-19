@@ -82,16 +82,14 @@ obtiene mediante el código siguiente :
 De esta manera se obtiene la gráfica
 
 .. figure:: https://i.ibb.co/9cLwWP1/Corriente-estator-alpha-beta.png
-   :alt: 
 
-Fig. 2.- Corrientes en el estator.
+   Transformación \u03B1, \u03B2, corrientes en el estator.
 
 Realizando un acercamiento a la figura 2.
 
 .. figure:: https://i.ibb.co/f40qFSs/Corriente-estator-alpha-beta-zoom.png
-   :alt: 
 
-Fig. 3. Acercamiento en las corrientes de la fig 2.
+   Acercamiento en las corrientes
 
 .. |image1| image:: https://badge.fury.io/py/ClarkePark.svg
    :target: https://badge.fury.io/py/ClarkePark
