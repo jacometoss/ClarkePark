@@ -107,19 +107,19 @@ Para obtener el gráfico de la transformación de Clarke
    plt.grid('on')
    plt.show()
    
- El arreglo matricial para realizar la transformación que usa el módulo es :
+El arreglo matricial para realizar la transformación que usa el módulo es :
 
 .. math::
    :nowrap:
    
    \begin{eqnarray}
 
+   \begin{matrix}
    \begin{bmatrix}
    i_{\alpha }\left ( t \right )\\ 
    i_{\beta }\left ( t \right )\\
    i_{z\left ( t \right ) }
-   \end{bmatrix}
-   =
+   \end{bmatrix} =
    \begin{bmatrix}
    1 & -\frac{1}{2} & -\frac{1}{2}\\ 
    0 &  \frac{\sqrt{3}}{2}& -\frac{\sqrt{3}}{2}\\
@@ -131,8 +131,9 @@ Para obtener el gráfico de la transformación de Clarke
    i_{b}\left ( t \right )\\ 
    i_{c}\left ( t \right )
    \end{bmatrix}
+   \end{matrix}
 
-\end{eqnarray}
+   \end{eqnarray}
 
 .. _header-n31:
 
