@@ -1,6 +1,2 @@
-.. toctree::
-   :glob:
-
-   intro*
-   recipe/*
-   *
+Index
+=====
