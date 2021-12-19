@@ -107,7 +107,7 @@ Para obtener el gráfico de la transformación de Clarke
    plt.grid('on')
    plt.show()
    
-El arreglo matricial para realizar la transformación que usa el módulo es :
+El arreglo matricial para realizar la transformación es :
 
 .. math::
    :nowrap:
