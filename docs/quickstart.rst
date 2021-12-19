@@ -1,5 +1,10 @@
-ClarkePark
-===========
+Módulos ClarkePark
+==================
+
+Descripción
+-----------
+
+:program:`ClarkePatk` presenta los módulos siguiente:
 
 .. option:: Transformación (abc) -> (αβ)
 
@@ -20,3 +25,8 @@ ClarkePark
 
    a, b, c = ClarkePark.dq0_to_abc(d, q, z, wt, delta)
 
+.. option:: Transformación inversa (α, β) - (dq0)
+
+.. code:: python
+
+   d, q, z= ClarkePark.alphaBeta0_to_dq0(alpha, beta, zero, wt, delta)
