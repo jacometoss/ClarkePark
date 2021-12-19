@@ -54,17 +54,6 @@ Contenido:
     References
     Version
 
-.. option:: --ext-autodoc
-
-   Enable `sphinx.ext.autodoc` extension.
-
-.. option:: --ext-doctest
-
-   Enable `sphinx.ext.doctest` extension.
-
-.. option:: --ext-intersphinx
-
-   Enable `sphinx.ext.intersphinx` extension.
 
    
 	
