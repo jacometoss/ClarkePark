@@ -4,7 +4,7 @@ Módulos ClarkePark
 Descripción
 -----------
 
-:program:`ClarkePatk` presenta los módulos siguiente:
+:program:`ClarkePark` presenta los módulos siguiente:
 
 .. option:: Transformación (abc) -> (αβ)
 
@@ -25,7 +25,7 @@ Descripción
 
    a, b, c = ClarkePark.dq0_to_abc(d, q, z, wt, delta)
 
-.. option:: Transformación inversa (α, β) - (dq0)
+.. option:: Transformación inversa (αβ) - (dq0)
 
 .. code:: python
 
