@@ -55,7 +55,13 @@ Contenido:
     References
     Version
 
-   
+.. math::
+   :nowrap:
+
+   \begin{eqnarray}
+      y    & = & ax^2 + bx + c \\
+      f(x) & = & x^2 + 2xy + y^2
+   \end{eqnarray}   
 	
 .. |image1| image:: https://badge.fury.io/py/ClarkePark.svg
    :target: https://badge.fury.io/py/ClarkePark
