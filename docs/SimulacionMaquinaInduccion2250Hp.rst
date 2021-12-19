@@ -83,7 +83,7 @@ De esta manera se obtiene la gráfica
 
 .. figure:: https://i.ibb.co/9cLwWP1/Corriente-estator-alpha-beta.png
 
-   Transformación \u03B1, \u03B2, corrientes en el estator.
+   Transformación '\u03B1', '\u03B2', corrientes en el estator.
 
 Realizando un acercamiento a la figura 2.
 
