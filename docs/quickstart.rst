@@ -1,7 +1,7 @@
 ClarkePark
 ===========
 
-.. option:: Transformación (a,b,c) -> (α, β)
+.. option:: Transformación (a,b,c) -> (α,β)
 
 .. code:: python
 
