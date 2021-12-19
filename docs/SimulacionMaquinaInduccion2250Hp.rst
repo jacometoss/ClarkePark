@@ -24,7 +24,8 @@ Hp es :
 
 
 .. figure:: https://i.ibb.co/vsdkCyC/Corriente-estator-abc.png
-
+   
+   Corrientes en el estador
 
 El bloque de código para graficar la señal es :
 
