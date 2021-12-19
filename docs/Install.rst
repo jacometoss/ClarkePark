@@ -35,6 +35,22 @@ La instalación del módulo se realiza con :
 
 .. _header-n18:
 
+
+Sistema ABC
+-----------
+Las tensiones o corrientes trifásicas pueden ser escritas de la forma siguiente :
+
+.. math::
+   :nowrap:
+   
+   \begin{eqnarray}
+      \begin{matrix}
+      V_{a} = V_{m} \sin \left (\omega t+0  \right )\\
+      V_{b} = V_{m} \sin \left (\omega t+240  \right )\\
+      V_{b} = V_{m} \sin \left (\omega t+120  \right )
+      \end{matrix}
+    \end{eqnarray}
+
 Transformación (a,b,c) - (α, *β*)
 ---------------------------------
 
@@ -42,7 +58,7 @@ El módulo tiene dependencias siendo necesario instalar ``numpy`` para
 procesar la información. También será necesario instalar e importar
 ``matplotlib.pyplot`` para visualizar los resultados.
 
-.. code:: tex
+.. code:: python
 
    alpha, beta, z = ClarkePark.abc_to_alphaBeta0(A,B,C)
 
@@ -139,9 +155,8 @@ El arreglo matricial para realizar la transformación es :
 Señal trifásica desbalanceada
 -----------------------------
 
-La señal trifásica desbalanceada únicamente será en la "Fase B"
-implementaremos las líneas siguientes de código al mostrado al
-principio.
+Cuando se tiene una desbalance en la señal trifásica, especificamente en la  "Fase B",
+para implementarse se usa el código siguiente:
 
 .. code:: python
 
@@ -149,8 +164,7 @@ principio.
    B_unbalance = (np.sqrt(2)*float(115))*np.sin(wt+rad_angB)
    C_unbalance = (np.sqrt(2)*float(127))*np.sin(wt+rad_angC)
 
-Graficando se obtiene las señales de tensión (A, B, C) desbalanceada
-(Fase B).
+Graficando se obtiene las señales de tensión (A, B, C) desbalanceada la "Fase B".
 
 .. figure:: https://i.ibb.co/gWsM4xw/Fig02abc-Unbalance.png
    
