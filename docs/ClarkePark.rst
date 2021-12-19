@@ -12,8 +12,9 @@ monofásicas en desfase y balanceadas siendo necesario de
 
 -  *Matplotlib* : Obtener las gráficas correspondientes.
 
-.. code:: python
-
+.. code-block:: python
+   :linenos:
+   
    import ClarkePark
    import numpy as np
    import matplotlib.pyplot as plt
