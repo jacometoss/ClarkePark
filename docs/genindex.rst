@@ -1,10 +1,6 @@
-Index
-=====
 .. toctree::
-    :maxdepth: 2
+   :glob:
 
-    Install
-    ClarkePark
-    SimulacionMaquinaInduccion2250Hp
-    References
-    Version
+   intro*
+   recipe/*
+   *
