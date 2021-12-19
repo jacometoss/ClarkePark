@@ -46,7 +46,6 @@ Contenido:
 ==========
 
 .. toctree::
-    :hidden:
     :maxdepth: 2
 
     Install
@@ -55,7 +54,17 @@ Contenido:
     References
     Version
 
-    genindex
+.. option:: --ext-autodoc
+
+   Enable `sphinx.ext.autodoc` extension.
+
+.. option:: --ext-doctest
+
+   Enable `sphinx.ext.doctest` extension.
+
+.. option:: --ext-intersphinx
+
+   Enable `sphinx.ext.intersphinx` extension.
 
    
 	
