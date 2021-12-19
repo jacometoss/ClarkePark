@@ -40,7 +40,7 @@ Sistema ABC
 -----------
 Las tensiones o corrientes trifásicas en el dominio del tiempo son :
 
-1.-La Fase A en el dominio del tiempo es  :
+fase A,
 
 .. math::
    :nowrap:
@@ -51,7 +51,7 @@ Las tensiones o corrientes trifásicas en el dominio del tiempo son :
     \end{matrix}
     \end{eqnarray}
  
-2.-La Fase B en el dominio del tiempo es  :
+fase B,
 
 .. math::
    :nowrap:
@@ -62,7 +62,7 @@ Las tensiones o corrientes trifásicas en el dominio del tiempo son :
     \end{matrix}
     \end{eqnarray}    
  
-3.-La Fase B en el dominio del tiempo es  :
+fase C,
 
 .. math::
    :nowrap:
