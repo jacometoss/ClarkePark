@@ -126,7 +126,8 @@ Graficando se obtiene las señales de tensión (A, B, C) desbalanceada
 (Fase B).
 
 .. figure:: https://i.ibb.co/gWsM4xw/Fig02abc-Unbalance.png
-   :alt: 
+   
+   Tensión trifásica, sistema ABC
 
 Para obtener la señal desbalanceada anterior implemente las siguientes
 líneas.
@@ -148,14 +149,16 @@ líneas.
 Si analizámos la señal con la transformación de Clarke
 
 .. figure:: https://i.ibb.co/XXYSsrn/Fig02-Unbalance.png
-   :alt: 
+   
+   Transformación de Clarke
 
 Podemos observar que la componente de secuencia cero tiene oscilaciones
 debido al desbalance y las componentes alpha y beta no presentan
 variación alguna. Si implementamos la transformación de Park.
 
 .. figure:: https://i.ibb.co/N3mywNs/Fig03-abc-Unbalance.png
-   :alt: 
+   
+   Transformación de Park
 
 La componente d y q varían a la misma frecuencia pero la componente de
 secuencia cero no. A partir de estos ejemplos usted puede implementar el
@@ -253,7 +256,8 @@ Finalmente se obtiene las señales del sistema trifásico ABC mediante la
 transformación inversa dq0 al sistema ABC.
 
 .. figure:: https://i.ibb.co/gtWbCj7/Figure-2.png
-   :alt: 
+   
+   Transformación inversa dq0 - ABC
 
 .. _header-n55:
 
