@@ -110,30 +110,30 @@ Para obtener el gráfico de la transformación de Clarke
 El arreglo matricial para realizar la transformación es :
 
 .. math::
+   :label: Transformación alpha,beta
    :nowrap:
    
    \begin{eqnarray}
+      \begin{matrix}
+      \begin{bmatrix}
+      i_{\alpha }\left ( t \right )\\ 
+      i_{\beta }\left ( t \right )\\
+      i_{z\left ( t \right ) }
+      \end{bmatrix} =
+      \begin{bmatrix}
+      1 & -\frac{1}{2} & -\frac{1}{2}\\ 
+      0 &  \frac{\sqrt{3}}{2}& -\frac{\sqrt{3}}{2}\\
+      \frac{1}{2} & \frac{1}{2} & \frac{1}{2}
+      \end{bmatrix}
 
-   \begin{matrix}
-   \begin{bmatrix}
-   i_{\alpha }\left ( t \right )\\ 
-   i_{\beta }\left ( t \right )\\
-   i_{z\left ( t \right ) }
-   \end{bmatrix} =
-   \begin{bmatrix}
-   1 & -\frac{1}{2} & -\frac{1}{2}\\ 
-   0 &  \frac{\sqrt{3}}{2}& -\frac{\sqrt{3}}{2}\\
-   \frac{1}{2} & \frac{1}{2} & \frac{1}{2}
-   \end{bmatrix}
-
-   \begin{bmatrix}
-   i_{a}\left ( t \right )\\ 
-   i_{b}\left ( t \right )\\ 
-   i_{c}\left ( t \right )
-   \end{bmatrix}
-   \end{matrix}
-
+      \begin{bmatrix}
+      i_{a}\left ( t \right )\\ 
+      i_{b}\left ( t \right )\\ 
+      i_{c}\left ( t \right )
+      \end{bmatrix}
+      \end{matrix}
    \end{eqnarray}
+   :label: euler
 
 .. _header-n31:
 
