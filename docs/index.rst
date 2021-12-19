@@ -56,8 +56,6 @@ Contenido:
     Version
 
 
-.. automodule:: an_example_pypi_project.useful_2
-   :members: public_fn_with_sphinxy_docstring, _private_fn_with_docstring
    
 	
 .. |image1| image:: https://badge.fury.io/py/ClarkePark.svg
