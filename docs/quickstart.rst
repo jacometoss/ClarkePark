@@ -1,6 +1,9 @@
+ClarkePark
+===========
+
 .. option:: mbtcu
 
-   Enable `sphinx.ext.autodoc` extension.
+   Enable `d, q, z = ClarkePark.abc_to_dq0(A, B, C, wt, delta).
 
 .. option:: mbtal
 
