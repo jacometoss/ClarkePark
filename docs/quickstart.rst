@@ -3,7 +3,7 @@ ClarkePark
 
 .. option:: mbtcu
 
-   Enable `d, q, z = ClarkePark.abc_to_dq0(A, B, C, wt, delta).
+   Disponible :  `d, q, z = ClarkePark.abc_to_dq0(A, B, C, wt, delta)`.
 
 .. option:: mbtal
 
