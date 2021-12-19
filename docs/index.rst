@@ -46,6 +46,7 @@ Contenido:
 ==========
 
 .. toctree::
+    :glob:
     :maxdepth: 2
 
     Install
