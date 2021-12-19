@@ -118,7 +118,7 @@ El arreglo matricial para realizar la transformación es :
       \begin{bmatrix}
       i_{\alpha }\left ( t \right )\\ 
       i_{\beta }\left ( t \right )\\
-      i_{z\left ( t \right ) }
+      i_{z } \left ( t \right ) 
       \end{bmatrix} =
       \begin{bmatrix}
       1 & -\frac{1}{2} & -\frac{1}{2}\\ 
@@ -133,7 +133,6 @@ El arreglo matricial para realizar la transformación es :
       \end{bmatrix}
       \end{matrix}
    \end{eqnarray}
-   :label: euler
 
 .. _header-n31:
 
