@@ -22,9 +22,9 @@ mediante el bloque de código siguiente :
 La corriente en estator cuando arranca la Maquina de Inducción de 2250
 Hp es :
 
-|image6|
 
-Fig. 1.- Corrientes en el estator.
+.. figure:: https://i.ibb.co/vsdkCyC/Corriente-estator-abc.png
+
 
 El bloque de código para graficar la señal es :
 
