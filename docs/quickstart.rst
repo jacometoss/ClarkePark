@@ -1,14 +1,16 @@
 ClarkePark
 ===========
 
-.. option:: mbtcu
+.. option:: Transformación (a,b,c) -> (α, β)
 
-   Disponible :  `d, q, z = ClarkePark.abc_to_dq0(A, B, C, wt, delta)`.
+.. code:: python
 
-.. option:: mbtal
+   alpha, beta, z = ClarkePark.abc_to_alphaBeta0(A,B,C)
+   
 
-   Enable `sphinx.ext.doctest` extension.
+.. option:: Transformación (ABC) -> (dq0)
 
-.. option:: mbtcustd
+.. code:: python
 
-   Enable `sphinx.ext.intersphinx` extension.
+   d, q, z = ClarkePark.abc_to_dq0(A, B, C, wt, delta)
+
