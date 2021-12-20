@@ -46,7 +46,7 @@ Sistema abc y marcos de referencia
 ==================================
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 3
 
     Install
     ClarkePark
