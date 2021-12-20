@@ -218,7 +218,7 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
-_stdauthor = r'''Marco Polo Jacome Toss'''
+_stdauthor = 'Marco Polo Jacome Toss'
 documents = [
   ('index', 'clarkepark.tex', u' Transformación de Clarke & Park', _stdauthor, 'manual'),
 ]
