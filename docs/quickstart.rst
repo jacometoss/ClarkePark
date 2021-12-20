@@ -6,7 +6,7 @@ Descripción
 
 :program:`ClarkePark` presenta los módulos siguientes:
 
-.. option:: Transformación (abc) -> (αβ)
+.. option:: Transformación (abc) -> (alpha,beta)
 
    La transformación del marco ABC al sistema de referencia α, β, implementando la misma señal se obtiene con
 
@@ -31,7 +31,7 @@ Descripción
 
    a, b, c = ClarkePark.dq0_to_abc(d, q, z, wt, delta)
 
-.. option:: Transformación inversa (αβ) - (dq0)
+.. option:: Transformación inversa (alpha,beta) - (dq0)
 
    La transformación inversa de Park, ejes de referencia rotatorio dq0 a componentes del dominio del tiempo, marco A, B, C.
    
