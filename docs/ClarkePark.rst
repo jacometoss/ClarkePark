@@ -82,7 +82,7 @@ Sistema trifásico balanceado
 
 .. _header-n43:
 
-Transformación (&#945;, \beta) 
+Transformación (*α*, *β*) 
 -----------------------
 
 La transformación del marco ABC al sistema de referencia α, *β*,
@@ -124,7 +124,7 @@ componentes del dominio del tiempo, marco A, B, C.
 
 .. _header-n58:
 
-Transformación inversa (α, *β*) - (dq0)
+Transformación inversa (*α*, *β*) - (dq0)
 ---------------------------------------
 
 La transformación inversa de Park, ejes de referencia rotatorio dq0 a
