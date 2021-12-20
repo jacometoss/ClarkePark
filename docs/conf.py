@@ -185,17 +185,6 @@ latex_elements = {
 
 # "inputenc" package inclusion, default '\\usepackage[utf8]{inputenc}'.
 'inputenc': r'''
-\makeatletter
-\ProvideTextCommandDefault\textcommabelow[1]
-  {\hmode@bgroup\ooalign{\null#1\crcr\hidewidth\raise-.31ex
-   \hbox{\check@mathfonts\fontsize\ssf@size\z@
-   \math@fontsfalse\selectfont,}\hidewidth}\egroup}
-\makeatother
-\usepackage{newunicodechar}
-\newunicodechar{Ș}{\textcommabelow S}
-\newunicodechar{ș}{\textcommabelow s}
-\newunicodechar{Ț}{\textcommabelow T}
-\newunicodechar{ț}{\textcommabelow t}
 \usepackage[utf8]{inputenc}
 \usepackage{upgreek}
 \usepackage{newunicodechar}
@@ -203,15 +192,15 @@ latex_elements = {
 
 # "fontenc" package inclusion, default '\\usepackage[T1]{fontenc}'.
 #'fontenc': r'''
-\usepackage[T1]{fontenc}
+#\usepackage[T1]{fontenc}
 #''',
 
 # Additional stuff for the LaTeX preamble.
 'preamble': r'''
 \authoraddress{
   \strong{}\\
-  \strong{Autor:} Marco Polo Jácome Toss\\
-  \strong{Contacto:} \email{jacometoss@aol.com} - \url{https://clarkepark.readthedocs.io/}
+  Autor : Marco Polo Jácome Toss\\
+  Contacto: \email{jacometoss@aol.com} - \url{https://clarkepark.readthedocs.io/}
 }
 \let\Verbatim=\OriginalVerbatim
 \let\endVerbatim=\endOriginalVerbatim
