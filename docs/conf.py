@@ -190,7 +190,7 @@ latex_elements = {
 
 # "fontenc" package inclusion, default '\\usepackage[T1]{fontenc}'.
 #'fontenc': r'''
-#\usepackage[T1]{fontenc}
+\usepackage[T1]{fontenc}
 #''',
 
 # Additional stuff for the LaTeX preamble.
@@ -198,7 +198,6 @@ latex_elements = {
 \authoraddress{
   \strong{Packages} ClarkePark\\
   \strong{Autor:} Marco Polo Jácome Toss\\
-  \strong{Contacto:} \email{jacometoss@aol.com} - 
   \url{https://clarkepark.readthedocs.io/}
 }
 \let\Verbatim=\OriginalVerbatim
