@@ -2,8 +2,8 @@
 
 .. _header-n33:
 
-Marcos de referencia de una señal trifásica balanceada
-======================================================
+Marcos de referencia y señal trifásica balanceada
+=================================================
 
 Para poder usar la transformación es necesario generar las tres señales
 monofásicas en desfase y balanceadas siendo necesario de
