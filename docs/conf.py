@@ -194,7 +194,7 @@ latex_elements = {
 #''',
 
 # Additional stuff for the LaTeX preamble.
-'preamble': '''
+'preamble': r'''
 \authoraddress{
   \strong{}\\
   \strong{Autor:} Marco Polo Jácome Toss\\
@@ -243,7 +243,7 @@ latex_show_pagerefs = True
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 #man_pages = [
-#    ('index', 'entrenamientopython_basico', u'Transformación Clarke Park',
+#    ('index', 'ClakePark', u'Transformación Clarke Park',
 #     [u'Marco Polo Jácome Toss'], 1)
 #]
 
