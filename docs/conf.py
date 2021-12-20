@@ -206,7 +206,6 @@ latex_elements = {
   \strong{Contacto:} \email{jacometoss@aol.com} - 
   \url{https://clarkepark.readthedocs.io/}
 }
-  
 \let\Verbatim=\OriginalVerbatim
 \let\endVerbatim=\endOriginalVerbatim
 ''',
