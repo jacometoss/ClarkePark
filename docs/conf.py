@@ -27,12 +27,12 @@ sys.path.append(os.path.abspath('sphinxext'))
 
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
-
-extensions = ['sphinx.ext.autodoc',
+extensions = [
+	'sphinx.ext.autodoc',
 	'sphinx.ext.todo',
 	'sphinx.ext.viewcode',
-	'sphinx.ext.intersphinx']
-
+	'sphinx.ext.intersphinx',
+]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -88,7 +88,7 @@ exclude_patterns = []
 show_authors = True
 
 # The name of the Pygments (syntax highlighting) style to use.
-pygments_style = 'sphinx'
+#pygments_style = 'sphinx'
 
 # A list of ignored prefixes for module index sorting.
 #modindex_common_prefix = []
@@ -113,7 +113,7 @@ html_theme = 'bizstyle'
 html_title = 'Transformación Clarke & Park'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
-#html_short_title = 'Transformación de Clarke & Park'
+html_short_title = 'Transformación de Clarke & Park'
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
@@ -160,7 +160,7 @@ html_show_sourcelink = True
 #html_show_sphinx = True
 
 # If true, "(C) Copyright ..." is shown in the HTML footer. Default is True.
-html_show_copyright = True
+#html_show_copyright = True
 
 # If true, an OpenSearch description file will be output, and all pages will
 # contain a <link> tag referring to it.  The value of this option must be the
@@ -181,7 +181,7 @@ latex_elements = {
 'papersize': 'letterpaper',
 
 # The font size ('10pt', '11pt' or '12pt').
-'pointsize': '12pt',
+#'pointsize': '10pt',
 
 # "inputenc" package inclusion, default '\\usepackage[utf8]{inputenc}'.
 'inputenc': r'''
@@ -189,9 +189,9 @@ latex_elements = {
 ''',
 
 # "fontenc" package inclusion, default '\\usepackage[T1]{fontenc}'.
-'fontenc': r'''
-\usepackage[T1]{fontenc}
-''',
+#'fontenc': r'''
+#\usepackage[T1]{fontenc}
+#''',
 
 # Additional stuff for the LaTeX preamble.
 'preamble': r'''
@@ -206,17 +206,15 @@ latex_elements = {
 ''',
 
 # Additional footer content (before the indices), default empty.
-#'footer': 'Marcos de referencia en señales eléctricas'
-#}
+#'footer': 'Asociación Cooperativa Vanguardista Tecnológica - Covantec R.L.'
+}
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
-#_stdauthor = r'' 
-#root_doc
-stdauthor = r'Marco Polo Jacome Toss.'
+_stdauthor = r''
 latex_documents = [
-  ('index', 'documentclarkepark.tex', u'Transformación de Clarke-Park', stdauthor, 'manual'),
+  ('index', 'clarkepark.tex', u' Transformación de Clarke & Park', _stdauthor, 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -245,7 +243,7 @@ latex_show_pagerefs = True
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 #man_pages = [
-#    ('index', 'ClakePark', u'Transformación Clarke Park',
+#    ('index', 'entrenamientopython_basico', u'Transformación Clarke Park',
 #     [u'Marco Polo Jácome Toss'], 1)
 #]
 
