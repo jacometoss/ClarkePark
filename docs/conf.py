@@ -185,7 +185,7 @@ latex_elements = {
 
 # "inputenc" package inclusion, default '\\usepackage[utf8]{inputenc}'.
 'inputenc': r'''
-\usepackage[utf8]{inputenc}
+\usepackage[utf8x]{inputenc}
 ''',
 
 # "fontenc" package inclusion, default '\\usepackage[T1]{fontenc}'.
