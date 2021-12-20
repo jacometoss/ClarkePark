@@ -200,13 +200,12 @@ latex_elements = {
 ''',
 
 # Additional stuff for the LaTeX preamble.
-'preamble': r'''
+latex_preamble = r'''
 \authoraddress{
-  \strong{}\\
-  \strong{Autor:} Marco Polo Jácome Toss\\
-  \strong{Contacto:} \email{jacometoss@aol.com} - 
-  \url{https://clarkepark.readthedocs.io/}
-}
+  \strong{Marco Polo Jácome Toss}\\
+  URL: https://clarkepark.readthedocs.io/\\
+  Email: \email{jacometoss@aol.com}
+}  
 \let\Verbatim=\OriginalVerbatim
 \let\endVerbatim=\endOriginalVerbatim
 ''',
