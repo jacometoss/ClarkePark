@@ -178,7 +178,7 @@ htmlhelp_basename = 'ClarkePark'
 
 latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
-'papersize': 'a5paper',
+'papersize': 'letterpaper',
 
 # The font size ('10pt', '11pt' or '12pt').
 'pointsize': '12pt',
