@@ -181,7 +181,7 @@ latex_elements = {
 'papersize': 'letterpaper',
 
 # The font size ('10pt', '11pt' or '12pt').
-#'pointsize': '10pt',
+#'pointsize': '12pt',
 
 # "inputenc" package inclusion, default '\\usepackage[utf8]{inputenc}'.
 'inputenc': r'''
@@ -196,7 +196,7 @@ latex_elements = {
 # Additional stuff for the LaTeX preamble.
 'preamble': r'''
 \authoraddress{
-  \strong{}\\
+  \strong{Packages} ClarkePark\\
   \strong{Autor:} Marco Polo Jácome Toss\\
   \strong{Contacto:} \email{jacometoss@aol.com} - 
   \url{https://clarkepark.readthedocs.io/}
@@ -243,7 +243,7 @@ latex_show_pagerefs = True
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 #man_pages = [
-#    ('index', 'entrenamientopython_basico', u'Transformación Clarke Park',
+#    ('index', 'marcos_de_referencia', u'Transformación Clarke Park',
 #     [u'Marco Polo Jácome Toss'], 1)
 #]
 
