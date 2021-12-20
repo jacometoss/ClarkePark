@@ -185,6 +185,17 @@ latex_elements = {
 
 # "inputenc" package inclusion, default '\\usepackage[utf8]{inputenc}'.
 'inputenc': r'''
+\makeatletter
+\ProvideTextCommandDefault\textcommabelow[1]
+  {\hmode@bgroup\ooalign{\null#1\crcr\hidewidth\raise-.31ex
+   \hbox{\check@mathfonts\fontsize\ssf@size\z@
+   \math@fontsfalse\selectfont,}\hidewidth}\egroup}
+\makeatother
+\usepackage{newunicodechar}
+\newunicodechar{Ș}{\textcommabelow S}
+\newunicodechar{ș}{\textcommabelow s}
+\newunicodechar{Ț}{\textcommabelow T}
+\newunicodechar{ț}{\textcommabelow t}
 \usepackage[utf8]{inputenc}
 \usepackage{upgreek}
 \usepackage{newunicodechar}
