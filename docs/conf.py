@@ -203,9 +203,8 @@ latex_elements = {
 latex_preamble = r'''
 \authoraddress{
   \strong{Marco Polo Jácome Toss}\\
-  URL: https://clarkepark.readthedocs.io/\\
   Email: \email{jacometoss@aol.com}
-}  
+} 
 \let\Verbatim=\OriginalVerbatim
 \let\endVerbatim=\endOriginalVerbatim
 ''',
