@@ -189,6 +189,7 @@ latex_elements = {
 \usepackage[utf8]{inputenc}
 \usepackage{upgreek}
 \usepackage{newunicodechar}
+\usepackage[T1]{fontenc}
 ''',
 
 # "fontenc" package inclusion, default '\\usepackage[T1]{fontenc}'.
@@ -199,7 +200,6 @@ latex_elements = {
 # Additional stuff for the LaTeX preamble.
 'preamble': r'''
 \authoraddress{
-  \strong{}\\
   Autor : Marco Polo Jácome Toss\\
   Contacto: \email{jacometoss@aol.com} - \url{https://clarkepark.readthedocs.io/}
 }
@@ -215,7 +215,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 _stdauthor = r''
-latex_documents = [
+
+documents = [
   ('index', 'clarkepark.tex', u' Transformación de Clarke & Park', _stdauthor, 'manual'),
 ]
 
