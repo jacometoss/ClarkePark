@@ -27,12 +27,17 @@ sys.path.append(os.path.abspath('sphinxext'))
 
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
-extensions = [
-	'sphinx.ext.autodoc',
-	'sphinx.ext.todo',
-	'sphinx.ext.viewcode',
-	'sphinx.ext.intersphinx',
-]
+
+extensions = ['sphinx.ext.autodoc',
+'sphinx.ext.doctest',
+'sphinx.ext.intersphinx',
+'sphinx.ext.todo',
+'sphinx.ext.coverage',
+'sphinx.ext.mathjax',
+'sphinx.ext.ifconfig',
+'sphinx.ext.viewcode',
+'sphinx.ext.githubpages']
+
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -175,6 +180,7 @@ htmlhelp_basename = 'ClarkePark'
 
 
 # -- Options for LaTeX output --------------------------------------------------
+latex_engine = 'xelatex'
 
 latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
@@ -196,17 +202,19 @@ latex_elements = {
 
 # Additional stuff for the LaTeX preamble.
 'preamble': r'''
-{
-  Autor : Marco Polo Jácome Toss\\
-  Contacto: \email{jacometoss@aol.com} - \url{https://clarkepark.readthedocs.io/}
+\authoraddress{
+  \strong{}\\
+  \strong{Autor:} Marco Polo Jácome Toss\\
+  \strong{Contacto:} \email{jacometoss@aol.com} - 
+  \url{https://clarkepark.readthedocs.io/}
 }
 \let\Verbatim=\OriginalVerbatim
 \let\endVerbatim=\endOriginalVerbatim
 ''',
 
 # Additional footer content (before the indices), default empty.
-'footer': 'Marcos de referencia en señales eléctricas'
-}
+#'footer': 'Marcos de referencia en señales eléctricas'
+#}
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
