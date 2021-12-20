@@ -9,7 +9,7 @@ Transformación ClarkePark!
 **Introducción**
 
 
-**ClarkePark** - Es un paquete para obtener los marcos de referencia Dq0 y Alfa-Beta.
+**ClarkePark** - Es un paquete para obtener los marcos de referencia Dq0 y α, β.
 
 La librería ClarkePark ( Versión 0.1.5) puede ser utilizado para obtener los diferentes marcos
 de refrencia, también puede ser utilizado realizar una transformación entre los propios marcos 
