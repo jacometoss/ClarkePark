@@ -11,9 +11,6 @@ Education.
 [2] J.C.DAS. (2016). *Understanding Symmetrical Components for Power
 System Modeling.* Piscataway: IEEE Press Editorial Board.
 
-**Licencia del documento**
-
-|image8|
 
 
 
