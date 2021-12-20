@@ -189,9 +189,9 @@ latex_elements = {
 ''',
 
 # "fontenc" package inclusion, default '\\usepackage[T1]{fontenc}'.
-#'fontenc': r'''
+'fontenc': r'''
 \usepackage[T1]{fontenc}
-#''',
+''',
 
 # Additional stuff for the LaTeX preamble.
 'preamble': r'''
