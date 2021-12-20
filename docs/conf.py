@@ -214,9 +214,9 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 #_stdauthor = r'' 
 #root_doc
-_stdauthor = r'Marco Polo Jácome Toss.'
+stdauthor = r'Marco Polo Jacome Toss.'
 latex_documents = [
-  ('index', 'documentclarkepark.tex', u'Transformación de Clarke-Park', _stdauthor, 'manual'),
+  ('index', 'documentclarkepark.tex', u'Transformación de Clarke-Park', stdauthor, 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
