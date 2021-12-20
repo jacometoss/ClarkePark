@@ -178,10 +178,10 @@ htmlhelp_basename = 'ClarkePark'
 
 latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
-'papersize': 'letterpaper',
+'papersize': 'a4paper',
 
 # The font size ('10pt', '11pt' or '12pt').
-'pointsize': '12pt',
+'pointsize': '11pt',
 
 # "inputenc" package inclusion, default '\\usepackage[utf8]{inputenc}'.
 'inputenc': r'''
