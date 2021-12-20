@@ -187,6 +187,7 @@ latex_elements = {
 'inputenc': r'''
 \usepackage[utf8]{inputenc}
 \usepackage{upgreek}
+\usepackage{newunicodechar}
 ''',
 
 # "fontenc" package inclusion, default '\\usepackage[T1]{fontenc}'.
