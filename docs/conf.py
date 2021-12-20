@@ -181,7 +181,7 @@ latex_elements = {
 'papersize': 'letterpaper',
 
 # The font size ('10pt', '11pt' or '12pt').
-#'pointsize': '12pt',
+'pointsize': '12pt',
 
 # "inputenc" package inclusion, default '\\usepackage[utf8]{inputenc}'.
 'inputenc': r'''
