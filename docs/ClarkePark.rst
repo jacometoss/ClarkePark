@@ -82,7 +82,7 @@ Sistema trifásico balanceado
 
 .. _header-n43:
 
-Transformación (\alpha, \beta) 
+Transformación (&Alpha;, \beta) 
 -----------------------
 
 La transformación del marco ABC al sistema de referencia α, *β*,
