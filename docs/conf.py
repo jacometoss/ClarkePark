@@ -88,7 +88,7 @@ exclude_patterns = []
 show_authors = True
 
 # The name of the Pygments (syntax highlighting) style to use.
-#pygments_style = 'sphinx'
+pygments_style = 'sphinx'
 
 # A list of ignored prefixes for module index sorting.
 #modindex_common_prefix = []
@@ -113,7 +113,7 @@ html_theme = 'bizstyle'
 html_title = 'Transformación Clarke & Park'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
-html_short_title = 'Transformación de Clarke & Park'
+#html_short_title = 'Transformación de Clarke & Park'
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
@@ -187,19 +187,16 @@ latex_elements = {
 'inputenc': r'''
 \usepackage[spanish]{babel}
 \usepackage[utf8]{inputenc}
-\usepackage{upgreek}
-\usepackage{newunicodechar}
-\usepackage[T1]{fontenc}
 ''',
 
 # "fontenc" package inclusion, default '\\usepackage[T1]{fontenc}'.
-#'fontenc': r'''
-#\usepackage[T1]{fontenc}
-#''',
+'fontenc': r'''
+\usepackage[T1]{fontenc}
+''',
 
 # Additional stuff for the LaTeX preamble.
 'preamble': r'''
-\authoraddress{
+{
   Autor : Marco Polo Jácome Toss\\
   Contacto: \email{jacometoss@aol.com} - \url{https://clarkepark.readthedocs.io/}
 }
@@ -208,7 +205,7 @@ latex_elements = {
 ''',
 
 # Additional footer content (before the indices), default empty.
-#'footer': 'Asociación Cooperativa Vanguardista Tecnológica - Covantec R.L.'
+'footer': 'Marcos de referencia en señales eléctricas'
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
