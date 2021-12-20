@@ -185,7 +185,6 @@ latex_elements = {
 
 # "inputenc" package inclusion, default '\\usepackage[utf8]{inputenc}'.
 'inputenc': r'''
-\usepackage[spanish]{babel}
 \usepackage[utf8]{inputenc}
 ''',
 
