@@ -196,8 +196,8 @@ latex_elements = {
 # Additional stuff for the LaTeX preamble.
 'preamble': r'''
 \authoraddress{
-  \strong{Packages} ClarkePark\\
-  \strong{Autor:} Marco Polo Jácome Toss\\
+  Packages ClarkePark\\
+  Marco Polo Jácome Toss\\
   \url{https://clarkepark.readthedocs.io/}
 }
 \let\Verbatim=\OriginalVerbatim
