@@ -45,7 +45,7 @@ fase A,
 .. math::
    :nowrap:
    
-   \large \begin{eqnarray}
+   \begin{eqnarray}
    \begin{matrix}
       V_{A} = V_{m} \sin \left (\omega t+0  \right )
     \end{matrix}
@@ -56,7 +56,7 @@ fase B,
 .. math::
    :nowrap:
   
-   \large \begin{eqnarray}
+   \begin{eqnarray}
    \begin{matrix}
       V_{B} = V_{m} \sin \left (\omega t+240  \right )
     \end{matrix}
@@ -67,7 +67,7 @@ fase C,
 .. math::
    :nowrap:
   
-   \large \begin{eqnarray}
+   \begin{eqnarray}
    \begin{matrix}
       V_{C} = V_{m} \sin \left (\omega t+120  \right )
     \end{matrix}   
