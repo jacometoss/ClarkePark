@@ -181,7 +181,7 @@ latex_elements = {
 'papersize': 'letterpaper',
 
 # The font size ('10pt', '11pt' or '12pt').
-#'pointsize': '10pt',
+'pointsize': '12pt',
 
 # "inputenc" package inclusion, default '\\usepackage[utf8]{inputenc}'.
 'inputenc': r'''
@@ -194,7 +194,7 @@ latex_elements = {
 #''',
 
 # Additional stuff for the LaTeX preamble.
-'preamble': r'''
+'preamble': '''
 \authoraddress{
   \strong{}\\
   \strong{Autor:} Marco Polo Jácome Toss\\
