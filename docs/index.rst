@@ -18,7 +18,7 @@ de referencia como al sistema ABC.
 El módulo de Park (dq0) & Clarke (α, *β* ) incluye :
 
 -  Transformación de componentes del tiempo, marco A, B, C a ejes nuevos
-   ejes de referencia estacionario ortogonal α, *β*.
+   de referencia estacionario ortogonal α, *β*.
 
 -  Inversa de Clarke, ejes de referencia estacionario ortogonal α, *β* a
    componentes del dominio del tiempo, marco A, B , C.
