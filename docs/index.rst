@@ -9,10 +9,10 @@ Transformación ClarkePark!
 **Introducción**
 
 
-**ClarkePark** - Es un paquete para obtener los marcos de referencia Dq0 y α, β.
+**ClarkePark** - Es un paquete para obtener los marcos de referencia Dq0 y α,β.
 
 ClarkePark ( Versión 0.1.6) puede ser utilizado para obtener los diferentes marcos
-de referencia, también puede ser utilizado para realizar una transformación entre los propios marcos 
+de referencia y para realizar una transformación entre los propios marcos 
 de referencia como al sistema ABC.
 
 El módulo de Park (dq0) & Clarke (α, *β* ) incluye :
