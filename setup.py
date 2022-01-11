@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='ClarkePark',
-    version='0.1.6',
+    version='0.1.7',
     url='https://clarkepark.readthedocs.io/',
     project_urls={
         'Documentation': 'https://clarkepark.readthedocs.io/',
@@ -31,6 +31,7 @@ setup(
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
         'Operating System :: Microsoft :: Windows',
         'Operating System :: POSIX :: Linux',
         'Topic :: Software Development :: Libraries :: Python Modules',

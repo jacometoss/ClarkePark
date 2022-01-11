@@ -1,10 +1,12 @@
-[![PyPI version](https://badge.fury.io/py/ClarkePark.svg)](https://badge.fury.io/py/ClarkePark) [![versons of python supported by carsons](https://img.shields.io/badge/python-3%20%7C%203.5%20%7C%203.6%20%7C%203.7%20%7C%203.8%20%7C%203.9-blue)](https://pypi.org/project/ClarkePark/)[![Downloads](https://pepy.tech/badge/clarkepark)](https://pepy.tech/project/clarkepark)[![Downloads](https://pepy.tech/badge/clarkepark/month)](https://pepy.tech/project/clarkepark) [![Maintainability](https://api.codeclimate.com/v1/badges/6abceb2a140780c13d17/maintainability)](https://codeclimate.com/github/jacometoss/ClarkePark/maintainability)
+[![PyPI version](https://badge.fury.io/py/ClarkePark.svg)](https://badge.fury.io/py/ClarkePark) [![versons of python supported by carsons](https://img.shields.io/badge/python-3%20%7C%203.5%20%7C%203.6%20%7C%203.7%20%7C%203.8%20%7C%203.9%20%7C%203.10-blue)](https://pypi.org/project/ClarkePark/)[![Downloads](https://pepy.tech/badge/clarkepark)](https://pepy.tech/project/clarkepark)[![Downloads](https://pepy.tech/badge/clarkepark/month)](https://pepy.tech/project/clarkepark) [![Maintainability](https://api.codeclimate.com/v1/badges/6abceb2a140780c13d17/maintainability)](https://codeclimate.com/github/jacometoss/ClarkePark/maintainability)
+
+![](https://i.ibb.co/VVVC5z4/2022-01-10-00-20-11-2.jpg)
 
 # Transformación de Park & Clarke
 
 La librería de Park (dq0) & Clarke (α, *β* ) incluye los módulos siguientes :
 
-- Transformación de  componentes del tiempo, marco  A, B, C  a ejes nuevos ejes de referencia estacionario ortogonal   α, *β*.
+- Transformación de  componentes del tiempo, marco  A, B, C  a nuevos ejes de referencia estacionario ortogonal   α, *β*.
 - Inversa de Clarke, ejes de referencia estacionario ortogonal  α, *β*  a  componentes del dominio del tiempo, marco  A, B , C.
 - Transformación de componentes  del tiempo, marco ABC hacia un sistema de referencia dq0 en régimen permanente.
 - Inversa de Park, ejes de referencia rotatorio dq0 a componentes  del dominio del tiempo, marco A, B, C.
@@ -154,13 +156,17 @@ d, q, z = ClarkePark.alphaBeta0_to_dq0(alpha, beta, z, wt, delta)
 La presente versión contiene la documentación necesaria para cada módulo.
 
 ```text
-[Packqge]: ClarkePark 0.1.6
+[Packqge]: ClarkePark 0.1.7
 [Autor]: Marco Polo Jácome Toss
 [Blog] : https://k-denveloper.blogspot.com/
 [Licencia]: GNU General Public License v3.0
-[Fecha]: 06-Diciembre-2021
+[Fecha]: 10-Enero-2021
 [Páis]: México
 ```
+
+## Registro de cambios
+
+- **0.1.7** Documentación de módulos y control de entrada de datos. (10-01-2022)
 
 ## Referencias
 
