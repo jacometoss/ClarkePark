@@ -175,5 +175,8 @@ La presente versión contiene la documentación necesaria para cada módulo.
 [2]  J.C.DAS. (2016). *Understanding Symmetrical Components for Power System Modeling.* Piscataway: IEEE Press Editorial Board.
 
 
-<a href="https://www.safecreative.org/work/2207301699317" xmlns:cc="http://creativecommons.org/ns#" rel="cc:license"><img src="https://resources.safecreative.org/work/2207301699317/label/standard-150" style="border:0;" alt="Safe Creative #2207301699317"/></a>
+## Información de registro
+
+<a href="https://www.safecreative.org/work/2207301699317" xmlns:cc="http://creativecommons.org/ns#" rel="cc:license"><img src="https://resources.safecreative.org/work/2207301699317/label/standard2-150" style="border:0;" alt="Safe Creative #2207301699317"/></a>
+
 
