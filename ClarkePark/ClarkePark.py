@@ -127,9 +127,27 @@ def abc_to_dq0(a, b, c, wt, delta):
     z = (2/3)*(a+b+c)/2
 
     '''
-    d = (2/3)*(a*np.sin(wt+delta) + b*np.sin(wt+delta-(2*np.pi/3)) + c*np.sin(wt+delta+(2*np.pi/3)))
-    q = (2/3)*(a*np.cos(wt+delta) + b*np.cos(wt+delta-(2*np.pi/3)) + c*np.cos(wt+delta+(2*np.pi/3)))
-    z = (2/3)*(a+b+c)/2
+    # Turn all three inputs into a vector
+    vec = np.array([a, b, c])
+
+    # Create Park transformation tensor
+    sin_0 = np.sin(wt + delta)
+    sin_p = np.sin(wt + delta + 2*np.pi/3)
+    sin_n = np.sin(wt + delta - 2*np.pi/3)
+    cos_0 = np.cos(wt + delta)
+    cos_p = np.cos(wt + delta + 2*np.pi/3)
+    cos_n = np.cos(wt + delta - 2*np.pi/3)
+    half = 0.5 * np.ones(len(wt))
+
+    park = np.array([[sin_0, sin_n, sin_p],
+                     [cos_0, cos_n, cos_p],
+                     [half,  half,  half]])
+
+    park *= (2/3)
+
+    # Use Einstein notation to define tensor operation (repeated inner product)
+    d, q, z = np.einsum('ij..., j... -> i...', park, vec)
+
     return d, q, z
 
 
@@ -156,10 +174,24 @@ def dq0_to_abc(d, q, z, wt, delta):
     c = d*np.sin(wt+(2*np.pi/3)+delta) + q*np.cos(wt+(2*np.pi/3)+delta) + z
 
     '''
+    # Turn all three inputs into a vector
+    vec = np.array([d, q, z])
 
-    a = d*np.sin(wt+delta) + q*np.cos(wt+delta) + z
-    b = d*np.sin(wt-(2*np.pi/3)+delta) + q*np.cos(wt-(2*np.pi/3)+delta) + z
-    c = d*np.sin(wt+(2*np.pi/3)+delta) + q*np.cos(wt+(2*np.pi/3)+delta) + z
+    # Create Park transformation tensor
+    sin_0 = np.sin(wt + delta)
+    sin_p = np.sin(wt + delta + 2*np.pi/3)
+    sin_n = np.sin(wt + delta - 2*np.pi/3)
+    cos_0 = np.cos(wt + delta)
+    cos_p = np.cos(wt + delta + 2*np.pi/3)
+    cos_n = np.cos(wt + delta - 2*np.pi/3)
+    ones = np.ones(len(wt))
+
+    park_inv = np.array([[sin_0, cos_0, ones],
+                         [sin_n, cos_n, ones],
+                         [sin_p, cos_p, ones]])
+
+    # Use Einstein notation to define tensor operation (repeated inner product)
+    a, b, c = np.einsum('ij..., j... -> i...', park_inv, vec)
     return a, b, c
 
 
