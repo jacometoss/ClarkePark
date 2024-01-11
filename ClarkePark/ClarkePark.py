@@ -23,6 +23,15 @@ def version():
     print(74*":")
 
 
+# Define Clarke transformation matrix
+T_clarke = (2/3)*np.array([[1, -0.5, -0.5],
+                           [0, np.sqrt(3)/2, -np.sqrt(3)/2],
+                           [0.5, 0.5, 0.5]])
+
+# Define inverse Clarke tranformation matrix
+T_clarke_inv = np.linalg.inv(T_clarke)
+
+
 # Transformación de Clarke : ABC a Alpha-Beta-0
 def abc_to_alphaBeta0(a, b, c):
     '''
@@ -56,10 +65,8 @@ def abc_to_alphaBeta0(a, b, c):
     z     = (2/3)*((a+b+c)/2)
 
     '''
-
-    alpha = (2/3)*(a - b/2 - c/2)
-    beta  = (2/3)*(np.sqrt(3)*(b-c)/2)
-    z     = (2/3)*((a+b+c)/2)
+    input = np.array([a, b, c])
+    alpha, beta, z = T_clarke @ input
     return alpha, beta, z
 
 
@@ -87,10 +94,7 @@ def alphaBeta0_to_abc(alpha, beta, z):
     c = -alpha/2 - beta*np.sqrt(3)/2 + z
 
     '''
-
-    a = alpha + z
-    b = -alpha/2 + beta*np.sqrt(3)/2 + z
-    c = -alpha/2 - beta*np.sqrt(3)/2 + z
+    a, b, c = T_clarke_inv @ np.array([alpha, beta, z])
     return a, b, c
 
 
