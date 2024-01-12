@@ -1,5 +1,10 @@
 #! /usr/bin/python3
 import numpy as np
+import numpy.typing as npt
+
+
+# Will return plenty of 3-tuples of numpy arrays, so creating alias
+three_arrays = tuple[npt.NDArray, npt.NDArray, npt.NDArray]
 
 
 def version():
@@ -33,7 +38,8 @@ T_clarke_inv = np.linalg.inv(T_clarke)
 
 
 # Transformación de Clarke : ABC a Alpha-Beta-0
-def abc_to_alphaBeta0(a, b, c):
+def abc_to_alphaBeta0(a: npt.ArrayLike, b: npt.ArrayLike,
+                      c: npt.ArrayLike) -> three_arrays:
     '''
     ABC --> αβ
     ----------------
@@ -71,8 +77,8 @@ def abc_to_alphaBeta0(a, b, c):
 
 
 # Inversa Transformación de Clarke : alphaBeta0 a abc
-def alphaBeta0_to_abc(alpha, beta, z):
-
+def alphaBeta0_to_abc(alpha: npt.ArrayLike, beta: npt.ArrayLike,
+                      z: npt.ArrayLike) -> three_arrays:
     '''
     αβ --> ABC
     ----------------
@@ -99,7 +105,7 @@ def alphaBeta0_to_abc(alpha, beta, z):
 
 
 # Define transformation matrix for Park Transform
-def park_matrix(wt, delta):
+def park_matrix(wt: npt.ArrayLike, delta: float) -> npt.NDArray[np.float64]:
     '''
     Transformation Matrix describing ABC --> dq0
      ----------------
@@ -133,7 +139,8 @@ def park_matrix(wt, delta):
 
 
 # Transformación de Park: abc a dq0
-def abc_to_dq0(a, b, c, wt, delta):
+def abc_to_dq0(a: npt.ArrayLike, b: npt.ArrayLike, c: npt.ArrayLike,
+               wt: npt.ArrayLike, delta: float) -> three_arrays:
     '''
     ABC --> dq0
     ----------------
@@ -175,7 +182,8 @@ def abc_to_dq0(a, b, c, wt, delta):
 
 
 # Inversa de Transformación de Park
-def dq0_to_abc(d, q, z, wt, delta):
+def dq0_to_abc(d: npt.ArrayLike, q: npt.ArrayLike, z: npt.ArrayLike,
+               wt: npt.ArrayLike, delta: float) -> three_arrays:
     '''
     dq0 --> ABC
     ----------------
@@ -211,7 +219,9 @@ def dq0_to_abc(d, q, z, wt, delta):
 
 
 # Transformación Clarke a Park
-def alphaBeta0_to_dq0(alpha, beta, zero, wt, delta):
+def alphaBeta0_to_dq0(alpha: npt.ArrayLike, beta: npt.ArrayLike,
+                      zero: npt.ArrayLike, wt: npt.ArrayLike,
+                      delta: float) -> three_arrays:
     '''
     αβ --> dq0
     ----------------
@@ -245,7 +255,8 @@ def alphaBeta0_to_dq0(alpha, beta, zero, wt, delta):
 
 
 # Transformación Park a Clarke
-def dq0_to_alphaBeta0(d, q, z, wt, delta):
+def dq0_to_alphaBeta0(d: npt.ArrayLike, q: npt.ArrayLike, z: npt.ArrayLike,
+                      wt: npt.ArrayLike, delta: float) -> three_arrays:
     '''
     dq0 --> αβ
     ----------------
