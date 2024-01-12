@@ -44,7 +44,7 @@ def abc_to_alphaBeta0(a, b, c):
     -------------
     Enter the three-phase signals in the order shown
 
-    abc_to_alphaBeta0(a, b, c)
+    alpha, beta, z = abc_to_alphaBeta0(a, b, c)
 
     You require Numpy and as an example of these signals
 
@@ -83,7 +83,7 @@ def alphaBeta0_to_abc(alpha, beta, z):
     -------------
     Enter the three-phase signals in the order shown
 
-    alphaBeta0_to_abc(alpha, beta, z)
+    a, b, c = alphaBeta0_to_abc(alpha, beta, z)
 
     You require Numpy and as an example of these signals
 
@@ -144,7 +144,7 @@ def abc_to_dq0(a, b, c, wt, delta):
     -------------
     Enter the three-phase signals in the order shown
 
-    abc_to_dq0(a, b, c, wt, delta)
+    d, q, z = abc_to_dq0(a, b, c, wt, delta)
 
     You require Numpy and as an example of these signals
 
@@ -186,7 +186,7 @@ def dq0_to_abc(d, q, z, wt, delta):
     -------------
     Enter the three-phase signals in the order shown
 
-    dq0_to_abc(d, q, z, wt, delta)
+    a, b, c = dq0_to_abc(d, q, z, wt, delta)
 
     You require Numpy and as an example of these signals
 
@@ -222,7 +222,7 @@ def alphaBeta0_to_dq0(alpha, beta, zero, wt, delta):
     -------------
     Enter the three-phase signals in the order shown
 
-    alphaBeta0_to_dq0(alpha, beta, zero, wt, delta)
+    d, q, z = alphaBeta0_to_dq0(alpha, beta, zero, wt, delta)
 
     You require Numpy and as an example of these signals
 
@@ -242,3 +242,29 @@ def alphaBeta0_to_dq0(alpha, beta, zero, wt, delta):
     d, q, z = P @ T_clarke_inv @ vec
 
     return d, q, z
+
+
+# Transformación Park a Clarke
+def dq0_to_alphaBeta0(d, q, z, wt, delta):
+    '''
+    dq0 --> αβ
+    ----------------
+    rotating reference frame dq0 towards an
+    orthogonal stationary reference transformation α, β.
+
+    Instructions
+    -------------
+    Enter the three-phase signals in the order shown
+
+    alpha, beta, zero = dq0_to_alphaBeta0(d, q, z, wt, delta)
+    '''
+    # Calculate Park transformation matrix and its inverse
+    P = park_matrix(wt, delta)
+    park_inv = np.linalg.inv(P.T).T
+
+    # Create vector of αβ0 and apply transformation
+    # Transform: dq0 -> Inverse Park -> Clarke -> αβ
+    vec = np.array([d, q, z])
+    alpha, beta, zero = T_clarke @ park_inv @ vec
+
+    return alpha, beta, zero
