@@ -98,6 +98,40 @@ def alphaBeta0_to_abc(alpha, beta, z):
     return a, b, c
 
 
+# Define transformation matrix for Park Transform
+def park_matrix(wt, delta):
+    '''
+    Transformation Matrix describing ABC --> dq0
+     ----------------
+    Defines transformation Matrix for Park Transformation of time
+    components, ABC frame towards a permanent dq0 reference system.
+
+    Instructions
+    -------------
+    Just need to enter properties of the (rotating) reference frame, namely:
+
+        wt      - Array describing how the reference frame
+                  is rotating (wt - angular frequency).
+
+        delta   - Float describing initial phase angle
+    '''
+    # Create Park transformation tensor
+    sin_0 = np.sin(wt + delta)
+    sin_p = np.sin(wt + delta + 2*np.pi/3)
+    sin_n = np.sin(wt + delta - 2*np.pi/3)
+    cos_0 = np.cos(wt + delta)
+    cos_p = np.cos(wt + delta + 2*np.pi/3)
+    cos_n = np.cos(wt + delta - 2*np.pi/3)
+    half = 0.5 * np.ones(len(wt))
+
+    P = np.array([[sin_0, sin_n, sin_p],
+                  [cos_0, cos_n, cos_p],
+                  [half,  half,  half]])
+
+    P *= (2/3)
+    return P
+
+
 # Transformación de Park: abc a dq0
 def abc_to_dq0(a, b, c, wt, delta):
     '''
@@ -130,22 +164,11 @@ def abc_to_dq0(a, b, c, wt, delta):
     # Turn all three inputs into a vector
     vec = np.array([a, b, c])
 
-    # Create Park transformation tensor
-    sin_0 = np.sin(wt + delta)
-    sin_p = np.sin(wt + delta + 2*np.pi/3)
-    sin_n = np.sin(wt + delta - 2*np.pi/3)
-    cos_0 = np.cos(wt + delta)
-    cos_p = np.cos(wt + delta + 2*np.pi/3)
-    cos_n = np.cos(wt + delta - 2*np.pi/3)
-    half = 0.5 * np.ones(len(wt))
+    # Get Park transformation matrix
+    park = park_matrix(wt, delta)
 
-    park = np.array([[sin_0, sin_n, sin_p],
-                     [cos_0, cos_n, cos_p],
-                     [half,  half,  half]])
-
-    park *= (2/3)
-
-    # Use Einstein notation to define tensor operation (repeated inner product)
+    # Use Einstein notation to define tensor operation
+    # (inner product repeated over time axis)
     d, q, z = np.einsum('ij..., j... -> i...', park, vec)
 
     return d, q, z
@@ -177,20 +200,12 @@ def dq0_to_abc(d, q, z, wt, delta):
     # Turn all three inputs into a vector
     vec = np.array([d, q, z])
 
-    # Create Park transformation tensor
-    sin_0 = np.sin(wt + delta)
-    sin_p = np.sin(wt + delta + 2*np.pi/3)
-    sin_n = np.sin(wt + delta - 2*np.pi/3)
-    cos_0 = np.cos(wt + delta)
-    cos_p = np.cos(wt + delta + 2*np.pi/3)
-    cos_n = np.cos(wt + delta - 2*np.pi/3)
-    ones = np.ones(len(wt))
+    # Get Park transformation matrix and calculate inverse
+    park = park_matrix(wt, delta)
+    park_inv = np.linalg.inv(park.T).T
 
-    park_inv = np.array([[sin_0, cos_0, ones],
-                         [sin_n, cos_n, ones],
-                         [sin_p, cos_p, ones]])
-
-    # Use Einstein notation to define tensor operation (repeated inner product)
+    # Use Einstein notation to define tensor operation
+    # (inner product repeated over time axis)
     a, b, c = np.einsum('ij..., j... -> i...', park_inv, vec)
     return a, b, c
 
