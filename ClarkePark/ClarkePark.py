@@ -233,8 +233,12 @@ def alphaBeta0_to_dq0(alpha, beta, zero, wt, delta):
     z = zero
 
     '''
+    # Calculate Park transformation matrix
+    P = park_matrix(wt, delta)
 
-    d = alpha*np.sin(wt+delta) - beta*np.cos(wt+delta)
-    q = alpha*np.cos(wt+delta) + beta*np.sin(wt+delta)
-    z = zero
+    # Create vector of αβ0 and apply transformation
+    # Transform: αβ -> Inverse Clarke -> Park -> dq0
+    vec = np.array([alpha, beta, zero])
+    d, q, z = P @ T_clarke_inv @ vec
+
     return d, q, z
