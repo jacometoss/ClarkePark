@@ -1,0 +1,5 @@
+tox>=3
+pytest>=6.2
+pytest-cov>=2.12
+flake8>=5.0
+Sphinx>=7.0.1
