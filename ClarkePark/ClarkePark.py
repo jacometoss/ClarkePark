@@ -4,7 +4,12 @@ import numpy.typing as npt
 
 
 # Will return plenty of 3-tuples of numpy arrays, so creating alias
-three_arrays = tuple[npt.NDArray, npt.NDArray, npt.NDArray]
+try:
+    three_arrays = tuple[npt.NDArray, npt.NDArray, npt.NDArray]
+except TypeError:
+    # Only acceptable syntax for Python >=3.9
+    from typing import Tuple
+    three_arrays = Tuple[npt.NDArray, npt.NDArray, npt.NDArray]
 
 
 def version():
@@ -21,7 +26,7 @@ def version():
     print(f"{'| Fecha : 10/01/2022': <73}|")
     print(f"{'| Version : 0.1.7': <73}|")
     print(f"{'| Autor : Marco Polo Jacome Toss': <73}|")
-    print(f"{'| License: GNU Affero General Public License v3 (GPL-3.0)': <73}|")
+    print(f"{'| License: GNU Affero General Public License v3 (GPL-3.0)': <73}|")  # noqa: E501
     print(f"{'| Requires: Python >=3.5': <73}|")
     print(f"{'| PyPi : https://pypi.org/project/ClarkePark/': <73}|")
     print(f"{'| Donativos : https://ko-fi.com/jacometoss': <73}|")
