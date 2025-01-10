@@ -16,17 +16,15 @@ La versión y nombre del paquete son :
 Donativos 
 ===========
 
-**¿Te gusta este proyecto?, puedes apoyarme mediante . . .**
+**Te gusta este proyecto? Puedes apoyarme de la siguiente manera:**
 
-La vida es como una batería y en cada momento uno va perdiendo una pequeña parte de esta cada día,
-puedes apoyarme en el desarrollo de este proyecto y motivar aún más mi creatividad para 
-que sea de gran utilidad esta herramienta.
+La vida es como una batería, y cada día perdemos una pequeña parte de ella. Si decides apoyarme en el desarrollo de este proyecto, estarás motivando mi creatividad y contribuyendo a que esta herramienta sea aún más útil.
 
-Puedes comprarme un café en forma de donativo en el enlace siguiente : 
+Si te gustaría contribuir, puedes comprarme un café a través del siguiente enlace: 
 
 |image7|
 
-No es mucho pero de algo sirve para mejorar este proyecto, acepto críticas como sugerencias.
+Aunque no es mucho, cualquier aporte es valioso y ayudará a mejorar este proyecto. Acepto tanto críticas como sugerencias para seguir mejorando.
 
 .. code::
 
