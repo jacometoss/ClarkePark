@@ -9,7 +9,7 @@ La versión y nombre del paquete son :
 
 .. code:: 
 
-   [Packqge]: ClarkePark 0.1.6
+   [Packqge]: ClarkePark 0.1.7
    [Autor]: MSc. Marco Polo Jácome Toss
    [Licencia]: GNU General Public License v3.0
 
